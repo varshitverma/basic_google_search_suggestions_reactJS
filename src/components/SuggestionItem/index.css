@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-family: 'Roboto';
+}
+
+.suggestion-name {
+  color: #475569;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 576px) {
+  .suggestion-name {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
+
+.suggestion-button {
+  background-color: #ffffff;
+  border-style: none;
+  cursor: pointer;
+}
+
+.button-icon {
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+}
